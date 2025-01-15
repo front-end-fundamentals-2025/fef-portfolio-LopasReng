@@ -1,6 +1,6 @@
-*{
-    font-family: sans-serif;
-}
+
+
+
 h1{
     color: rgb( 150, 27, 129);
     text-align: center;
@@ -8,6 +8,7 @@ h1{
 
 h2{
     color: rgb( 150, 27, 129);
+    margin-bottom: 0;
 }
 
 
@@ -15,8 +16,13 @@ p{
 color: black;
 text-align: justify;
 width: 45%;
+margin-top: 10;
 }
 
 img{
     width: 40%;
+    float: right;
+    margin-top: 0;
+    margin-left: 20px;
+
 }
