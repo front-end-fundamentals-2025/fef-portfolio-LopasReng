@@ -54,8 +54,6 @@ ul {
     text-decoration: underline;
 }
 
-
-
 .image img{
     display: flex;
     width: 30%;
@@ -63,7 +61,10 @@ ul {
 
 }
 
-
+.form{
+    color: black;
+    font-weight: bold;
+}
 
 footer {
     color: #962181;
