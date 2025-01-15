@@ -1,8 +1,13 @@
 h1{
     color: black;
+    font-family: sans-serif;
     text-align: center;
 }
 
+h2{
+    font-family: sans-serif;
+}
 p{
-
+color: black;
+font-family: sans-serif;
 }
