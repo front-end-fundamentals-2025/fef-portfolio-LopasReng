@@ -1,7 +1,22 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: white;
+}
 
 
-h1{
-    color: rgb( 150, 27, 129);
+header {
+    background-color: #962181;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+header h1{
+    font-size: 46px;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -12,7 +27,7 @@ h1{
 }
 
 h2{
-    color: rgb( 150, 27, 129);
+    color: rgb(255, 255, 255);
     margin-bottom: 10;
     text-align: center;
 }
