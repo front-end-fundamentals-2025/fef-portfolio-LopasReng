@@ -13,23 +13,21 @@ header {
 }
 
 
-
+/*"Welcome to my page!"*/
 header h1{
     font-size: 46px;
     color: rgb(255, 255, 255);
     text-align: center;
 }
 
+/*"Lovisa Garnemark"*/
 header h2{
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 30px;
 }
-.image img{
-    display: flex;
-    width: 20%;
-   align-items: center;
-}
+
+/*"About me"*/
 .about h3{
     font-size: 24px;
     color: black;
@@ -37,24 +35,40 @@ header h2{
 }
 
 
-
+/*Text*/
 .about p{
     color: black;
     text-align: center;
-    width: 60%;
+    margin-left: 30%;
+    width: 40%;
+}
+
+/*"Contact Information*/
+ul {
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+}
+#a {
+    color: #2b12bb;
+    text-decoration: underline;
 }
 
 
 
+.image img{
+    display: flex;
+    width: 30%;
+    margin-left: 35%;
 
-
-
-
-
+}
 
 
 
 footer {
-    text-align: center;
+    color: #962181;
+    text-decoration: none;
+    text-align: left;
     border-top: 10px solid rgb( 150, 27, 129);
+    margin-bottom: 50px;
 }
