@@ -13,7 +13,14 @@ h2{
     margin-bottom: 0;
 }
 
+img{
+    width: 400px;
+    height: auto;
+    float: right;
+    margin-top: 0px;
+    margin-left: 50%;
 
+}
 p{
 color: black;
 text-align: justify;
@@ -21,11 +28,10 @@ width: 1300px;
 margin-top: 10;
 }
 
-img{
-    width: 400px;
-    height: auto;
-    float: right;
-    margin-top: 0px;
-    margin-left: 20px;
 
+
+footer {
+    color: blueviolet;
+    margin-top: 0px;
+    border-top: 50px solid rgb(35, 32, 207);
 }
