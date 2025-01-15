@@ -20,26 +20,37 @@ header h1{
     text-align: center;
 }
 
-.main-img{
-    width: 50%;
-    height: auto;
-    float: right;
-}
-
-h2{
+header h2{
     color: rgb(255, 255, 255);
-    margin-bottom: 10;
     text-align: center;
+    font-size: 30px;
 }
-
-
-
-
-p{
+.image img{
+    display: flex;
+    width: 20%;
+   align-items: center;
+}
+.about h3{
+    font-size: 24px;
     color: black;
     text-align: center;
-    margin-top: 10;
 }
+
+
+
+.about p{
+    color: black;
+    text-align: center;
+    width: 60%;
+}
+
+
+
+
+
+
+
+
 
 
 
