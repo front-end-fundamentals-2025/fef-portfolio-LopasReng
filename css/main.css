@@ -1,18 +1,18 @@
+*{
+    font-family: sans-serif;
+}
 h1{
     color: rgb( 150, 27, 129);
-    font-family: sans-serif;
     text-align: center;
 }
 
 h2{
     color: rgb( 150, 27, 129);
-    font-family: sans-serif;
 }
 
 
 p{
 color: black;
-font-family: sans-serif;
 text-align: justify;
 width: 45%;
 }
