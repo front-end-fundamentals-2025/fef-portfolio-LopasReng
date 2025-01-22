@@ -13,13 +13,20 @@ header {
     padding: 20px 0;
 }
 
+/* Catebory images */
 .category-container{
-    
+    width: 80%;
     display: grid;
-    grid-template-columns:
-    'img img img'
-    'img img';
-    width: 10%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+}
+
+.category-container img {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 5rem;
+    margin-left: 9rem;
+    margin-bottom: 5rem;
 }
 
 /*"Welcome to my page!"*/
