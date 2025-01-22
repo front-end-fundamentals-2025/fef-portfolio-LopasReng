@@ -29,6 +29,11 @@ header {
     margin-bottom: 5rem;
 }
 
+.topics {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
 /*"Welcome to my page!"*/
 header h1{
     font-size: 46px;
