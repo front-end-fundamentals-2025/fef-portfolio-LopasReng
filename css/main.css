@@ -50,10 +50,7 @@ ul {
     text-align: center;
     font-size: 30px;
 }
-#a {
-    color: #2b12bb;
-    text-decoration: underline;
-}
+
 
 /*Image*/
 .image img{
@@ -108,7 +105,6 @@ margin-bottom: 0px;
 
 footer {
     color: #962181;
-    text-decoration: none;
     text-align: left;
     border-top: 10px solid rgb( 150, 27, 129);
     margin-bottom: 50px;
