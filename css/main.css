@@ -13,6 +13,14 @@ header {
     padding: 20px 0;
 }
 
+.category-container{
+    
+    display: grid;
+    grid-template-columns:
+    'img img img'
+    'img img';
+    width: 10%;
+}
 
 /*"Welcome to my page!"*/
 header h1{
@@ -50,7 +58,10 @@ ul {
     text-align: center;
     font-size: 30px;
 }
-
+#a {
+    color: #962181;
+    text-decoration: none;
+}
 
 /*Image*/
 .image img{
@@ -61,7 +72,7 @@ ul {
 }
 
 
-/*Contact Page*/
+/*CONTACT PAGE*/
 
 /*"Title names*/
 .form{
@@ -103,13 +114,6 @@ margin-bottom: 0px;
    margin-left: 47%;
 }
 
-footer {
-    color: #962181;
-    text-align: left;
-    border-top: 10px solid rgb( 150, 27, 129);
-    margin-bottom: 50px;
-}
-
 /*"Send message" button*/
 .click{
     background-color: rgb(239, 239, 239);
@@ -123,3 +127,12 @@ footer {
     font-size: 80%;
     background-color: rgb(247, 247, 247);
  }
+ 
+
+
+ footer {
+    color: #962181;
+    text-align: left;
+    border-top: 10px solid rgb( 150, 27, 129);
+    margin-bottom: 50px;
+}
