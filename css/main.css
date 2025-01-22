@@ -1,3 +1,4 @@
+/*Common for text parts*/
 body{
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -54,6 +55,7 @@ ul {
     text-decoration: underline;
 }
 
+/*Image*/
 .image img{
     display: flex;
     width: 30%;
@@ -61,6 +63,8 @@ ul {
 
 }
 
+
+/*Contact Page*/
 
 /*"Title names*/
 .form{
@@ -72,11 +76,13 @@ ul {
     margin-bottom: 0px;
 }
 
+/*Input text for the text boxes*/
 .form-imput{
 font-size: 30px;
 margin-bottom: 0px;
 }
 
+/*Labels as titles for the text boxes*/
 .form-label{
     margin-right: 20px;
     margin-bottom: 0px;
