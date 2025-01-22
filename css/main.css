@@ -113,3 +113,17 @@ footer {
     border-top: 10px solid rgb( 150, 27, 129);
     margin-bottom: 50px;
 }
+
+/*"Send message" button*/
+.click{
+    background-color: rgb(239, 239, 239);
+    border: 0px;
+    padding: 20px 15px;
+    margin-bottom: 10px;
+    margin-left: 0%;
+    font-size: 20px;
+ }
+ .click:hover{
+    font-size: 80%;
+    background-color: rgb(247, 247, 247);
+ }
