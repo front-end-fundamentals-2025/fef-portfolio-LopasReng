@@ -143,6 +143,7 @@ margin-bottom: 0px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
+    margin-left: -4%;
 }
 
 .item {
@@ -166,14 +167,15 @@ margin-bottom: 0px;
     color: black;
     text-align: justify;
     width: 80%;
-    margin-left: 15%;
+    margin-left: 10%;
 
 }
 
 .topics p{
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: -7%;
+    margin-bottom: 0%;
     color: black;
     font-weight: bold;
 }
@@ -186,4 +188,5 @@ margin-bottom: 0px;
     text-align: left;
     border-top: 10px solid rgb( 150, 27, 129);
     margin-bottom: 50px;
+    margin-top: 5%;
 }
