@@ -1,3 +1,4 @@
+/* HOME PAGE */
 /*Common for text parts*/
 body{
     font-family: Arial, sans-serif;
@@ -11,14 +12,6 @@ header {
     color: white;
     text-align: center;
     padding: 20px 0;
-}
-
-/* Catebory images */
-.category-container{
-    width: 80%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 80px;
 }
 
 .category-container img {
@@ -55,7 +48,6 @@ header h2{
     text-align: center;
 }
 
-
 /*Text*/
 .about p{
     color: black;
@@ -83,9 +75,53 @@ ul {
 
 }
 
+/*"Send message" button*/
+.click{
+    background-color: rgb(239, 239, 239);
+    border: 0px;
+    padding: 20px 15px;
+    margin-bottom: 10px;
+    margin-left: 0%;
+    font-size: 20px;
+ }
+ .click:hover{
+    font-size: 80%;
+    background-color: rgb(247, 247, 247);
+ }
+
+
+
+
+
+/* PORTFOLIO */
+/* Catebory images */
+.category-container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+}
+
+/* description title "My Works" */
+.description{
+    font-size: 24px;
+    color: black;
+    text-align: right;
+    margin-right: 15%;
+} 
+
+/* description paragraph */
+.description p{
+    color: black;
+    text-align: right;
+    margin-left: 70%;
+
+}
+
+ 
+
 
 /*CONTACT PAGE*/
-
 /*"Title names*/
 .form{
     font-size: 20px;
@@ -126,22 +162,10 @@ margin-bottom: 0px;
    margin-left: 47%;
 }
 
-/*"Send message" button*/
-.click{
-    background-color: rgb(239, 239, 239);
-    border: 0px;
-    padding: 20px 15px;
-    margin-bottom: 10px;
-    margin-left: 0%;
-    font-size: 20px;
- }
- .click:hover{
-    font-size: 80%;
-    background-color: rgb(247, 247, 247);
- }
- 
 
 
+
+/* FOOTER */
  footer {
     color: #962181;
     text-align: left;
