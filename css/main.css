@@ -92,35 +92,6 @@ ul {
 
 
 
-
-/* PORTFOLIO */
-/* Catebory images */
-.category-container{
-    width: 80%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 80px;
-}
-
-/* description title "My Works" */
-.description{
-    font-size: 24px;
-    color: black;
-    text-align: right;
-    margin-right: 15%;
-} 
-
-/* description paragraph */
-.description p{
-    color: black;
-    text-align: right;
-    margin-left: 70%;
-
-}
-
- 
-
-
 /*CONTACT PAGE*/
 /*"Title names*/
 .form{
@@ -163,6 +134,40 @@ margin-bottom: 0px;
 }
 
 
+
+
+/* PORTFOLIO */
+/* Catebory images */
+.category-container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 80px;
+}
+
+/* description title "My Works" */
+.description {
+    font-size: 24px;
+    color: black;
+    text-align: right;
+    margin-right: 15%;
+} 
+
+/* description paragraph */
+.description p{
+    color: black;
+    text-align: justify;
+    margin-left: 70%;
+
+}
+
+.topics p{
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
 
 
 /* FOOTER */
