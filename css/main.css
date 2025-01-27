@@ -13,8 +13,6 @@ header {
     padding: 20px 0;
 }
 
-
-
 /*"Welcome to my page!"*/
 header h1{
     font-size: 46px;
@@ -80,7 +78,7 @@ ul {
 
 
 
-/*CONTACT PAGE*/
+/*CONTACT PAGE*
 /*"Title names*/
 .form{
     font-size: 20px;
@@ -141,7 +139,6 @@ margin-bottom: 0px;
     margin-bottom: 5rem;
 }
 
-
 .item {
     text-align: center;
 }
@@ -167,12 +164,43 @@ margin-bottom: 0px;
     font-size: 20px;
 
 }
-
+/* Topic titles under each image */
 .topics p {
     font-size: 30px;
     text-align: center;
     margin-top: -7%;
     margin-bottom: 0%;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+/* PROJECTS PAGE */
+/* "Projects" header */
+h5{ 
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+/* running text */
+.information{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    width: 40%;
+}
+.steps img{
+    width: 60%;
+    height: auto;
+    margin-left: 2rem;
+}
+
+.titles{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 2rem;
     color: black;
     font-weight: bold;
 }
