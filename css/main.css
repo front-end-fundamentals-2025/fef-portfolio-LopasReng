@@ -218,18 +218,16 @@ h5{
     font-size: 20px;
 }
 .steps img{
-
-
-    width: 80%;
+    width: 50%;
     margin-top: 5rem;
-    margin-left: 7rem;
+    margin-left: 20rem;
     margin-bottom: 5rem;
 }
 
 .titles{
     font-size: 30px;
     text-align: left;
-    margin-left: 10rem;
+    margin-left: 20rem;
     margin-top: -5rem;
     margin-bottom: 2rem;
     color: black;
