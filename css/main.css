@@ -77,8 +77,8 @@ a {
     background-color: rgb(247, 247, 247);
  }
 
-
-    @media screen and (max-width: 550px) {
+/* If the screen size is below 750px the text will be justified  */
+    @media screen and (max-width: 750px) {
         .about p {
             text-align: justify;
             width: 50%;
@@ -88,6 +88,8 @@ a {
             margin-left: 30%;
         }
     }
+
+
 
 
 /*CONTACT PAGE*
@@ -196,6 +198,8 @@ margin-bottom: 0px;
 }
 
 
+
+
 /* PROJECTS PAGE */
 /* "Projects" header */
 h5{ 
@@ -231,6 +235,7 @@ h5{
     color: black;
     font-weight: bold;
 }
+
 
 
 
