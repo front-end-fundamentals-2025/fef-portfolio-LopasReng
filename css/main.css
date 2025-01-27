@@ -78,6 +78,16 @@ a {
  }
 
 
+    @media screen and (max-width: 550px) {
+        .about p {
+            text-align: justify;
+            width: 50%;
+        }
+        .image img{
+            width: 50%;
+            margin-left: 30%;
+        }
+    }
 
 
 /*CONTACT PAGE*
@@ -176,7 +186,14 @@ margin-bottom: 0px;
     font-weight: bold;
 }
 
-
+/* When the screen size is below 1400px, the images lines up in a column instead of 2 rows */
+@media screen and (max-width: 1400px) {
+    .category-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, auto);
+    }
+    
+}
 
 
 /* PROJECTS PAGE */
@@ -190,11 +207,11 @@ h5{
 }
 /* running text */
 .information{
-    font-size: 20px;
     color: black;
-    text-align: center;
-    width: 30%;
-    margin-left: 30rem;
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
 }
 .steps img{
     width: 60%;
