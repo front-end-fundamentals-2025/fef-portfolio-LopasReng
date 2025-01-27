@@ -44,7 +44,6 @@ header h2{
     width: 40%;
 }
 
-/*"Contact Information*/
 ul {
     list-style: none;
     text-align: center;
@@ -74,7 +73,7 @@ a {
     font-size: 20px;
  }
  .click:hover{
-    font-size: 80%;
+    font-size: 70%;
     background-color: rgb(247, 247, 247);
  }
 
