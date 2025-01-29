@@ -112,6 +112,7 @@ a {
     transition: all 0.3s ease-in-out;
     position: relative;
  }
+ /* Button animation */
  .click:hover{
     font-size: 70%;
     background-color: rgb(235, 235, 235);
@@ -167,14 +168,6 @@ margin-bottom: 0px;
     height: 200px;
     padding: 10px;
     box-sizing: border-box;
-}
-
-/*"Send message" button*/
-.submit{
-   background-color: rgb(221, 221, 221);
-   padding: 10px 5px;
-   margin-bottom: 10px;
-   margin-left: 47%;
 }
 
 
