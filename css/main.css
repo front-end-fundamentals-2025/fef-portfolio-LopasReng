@@ -89,6 +89,25 @@ a {
         }
     }
 
+/* Header animation */
+/* The following 15 lines of code was adapted from https://chatgpt.com/share/679a027a-58c8-800b-ae63-b7ca8eba8917 accessed 01-29-2025 */
+    header h1, header h2 {
+        opacity: 0;
+        transform: translateY(50px);
+        animation: header 1s ease-out forwards;
+    }
+    
+    @keyframes header {
+        from {
+        opacity: 0;
+        transform: translateY(100px);
+        }
+        to {
+        opacity: 1;
+        transform: translateY(0);
+        }
+    }
+    
 
 
 
@@ -206,15 +225,15 @@ h5{
     font-size: 24px;
     color: black;
     text-align: center;
-    margin-bottom: -1rem;
+    margin-bottom: 1rem;
 
 }
 /* running text */
 .information{
     color: black;
-    text-align: justify;
-    width: 80%;
-    margin-left: 10%;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
     font-size: 20px;
 }
 .steps img{
