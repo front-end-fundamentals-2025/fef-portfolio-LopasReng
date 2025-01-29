@@ -156,13 +156,13 @@ margin-bottom: 0px;
 
 /*Labels as titles for the text boxes*/
 .form-label{
-    margin-right: 20px;
+    margin-right: 1rem;
     margin-bottom: 0px;
     }
 
 /*"Message" text area*/
 .form-textarea{
-    margin-top: 0px;
+    margin-top: -1rem;
     font-size: 15px;
     width: 400px;
     height: 200px;
