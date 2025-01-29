@@ -110,6 +110,23 @@ a {
     
 
 
+    .click {
+        background-color: #962181;
+        color: white;
+        padding: 12px 24px;
+        font-size: 18px;
+        transition: 0.3s;
+        border-radius: 8px;
+    }
+    
+    .click:hover {
+        box-shadow: 0 0 15px rgba(150, 33, 129, 0.8);
+        color: black;
+        transform: scale(1.1);
+    }
+
+
+
 
 /*CONTACT PAGE*
 /*"Title names*/
