@@ -60,6 +60,8 @@ a {
     display: flex;
     width: 30%;
     margin-left: 35%;
+    justify-content: center;
+
 
 }
 
@@ -106,8 +108,9 @@ a {
     border: none;
     border-radius: 8px;
     margin-bottom: 10px;
-    margin-left: 0%;
+    margin-left: -2rem;
     font-size: 20px;
+
 /* The following 2 lines of code was adapted from https://chatgpt.com/share/679a0d50-a26c-800b-a1a7-64f4bd298195 accessed 01-29-2025 */
     transition: all 0.3s ease-in-out;
     position: relative;
@@ -244,6 +247,7 @@ h5{
     color: black;
     text-align: center;
     margin-bottom: 1rem;
+    justify-content: center;
 
 }
 /* running text */
@@ -253,12 +257,16 @@ h5{
     width: 60%;
     margin-left: 20%;
     font-size: 20px;
+    justify-content: center;
+
 }
 .steps img{
     width: 50%;
     margin-top: 5rem;
     margin-left: 20rem;
     margin-bottom: 5rem;
+    justify-content: center;
+
 }
 
 .titles{
