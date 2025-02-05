@@ -86,7 +86,6 @@ a {
         transform: translateY(50px);
         animation: header 1s ease-out forwards;
     }
-    
     @keyframes header {
         from {
         opacity: 0;
