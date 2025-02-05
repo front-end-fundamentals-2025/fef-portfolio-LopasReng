@@ -124,17 +124,11 @@ a {
     animation: glow 1.5s infinite alternate;
  }
  
- /* The following 11 lines of code was adapted from https://chatgpt.com/share/679a0d50-a26c-800b-a1a7-64f4bd298195 accessed 01-29-2025 */
+ /* The following 5 lines of code was adapted from https://chatgpt.com/share/679a0d50-a26c-800b-a1a7-64f4bd298195 accessed 01-29-2025 */
  @keyframes glow {
-    0% {
-        box-shadow: 0 0 5px #962181;
-    }
-    50% {
-        box-shadow: 0 0 20px #962181, 0 0 40px #962181;
-    }
-    100% {
-        box-shadow: 0 0 30px #962181, 0 0 60px #962181;
-    }
+    0% {box-shadow: 0 0 5px #962181;}
+    50% {box-shadow: 0 0 20px #962181, 0 0 40px #962181;}
+    100% {box-shadow: 0 0 30px #962181, 0 0 60px #962181;}
 }
 
 
@@ -177,12 +171,13 @@ margin-bottom: 0px;
 
 
 /* PORTFOLIO */
-/* Catebory images */
+/* Category images */
 .category-container{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(2, 1fr); /* 2 columns, taking up equal fraction of the page */
+    grid-template-rows: repeat(3, auto); /* 3 rows, auto fits content */
+
 }
 
 .category-container img {
