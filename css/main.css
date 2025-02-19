@@ -118,7 +118,7 @@ a {
     background-color: rgb(235, 235, 235);
     color: rgb(0, 0, 0);
 /* The following line of code was adapted from https://chatgpt.com/share/679a0d50-a26c-800b-a1a7-64f4bd298195 accessed 01-29-2025 */
-    animation: glow 1.5s infinite alternate;
+    animation: glow 0.5s infinite alternate;
  }
  
  /* The following 5 lines of code was adapted from https://chatgpt.com/share/679a0d50-a26c-800b-a1a7-64f4bd298195 accessed 01-29-2025 */
@@ -127,7 +127,6 @@ a {
     50% {box-shadow: 0 0 20px #962181, 0 0 40px #962181;}
     100% {box-shadow: 0 0 30px #962181, 0 0 60px #962181;}
 }
-
 
 
 
